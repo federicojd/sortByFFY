@@ -11,7 +11,7 @@
 
 CREATE OR REPLACE FUNCTION sortByFFY(changes IN VARCHAR2) 
 RETURN VARCHAR2 AS
--- RETURN OBJECT_CHANGE_TABLE AS
+
 	  result varchar2(32767);
     
     -- Changes in a big String, a <BR> is added to the end of the string
